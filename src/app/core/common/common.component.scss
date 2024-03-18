@@ -1,0 +1,40 @@
+.fixed-buttons {
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+  }
+  
+  .fixed-buttons a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+  }
+  
+  .fixed-buttons a i {
+    font-size: 24px;
+  }
+  
+  .phone {
+    background-color: #007bff; /* Blue color for phone call */
+  }
+  
+  .skype {
+    background-color: #00aff0;
+  }
+  .whatsapp {
+    background-color: #25d366; /* Green color for WhatsApp */
+  }
+  .fixed-buttons a:hover {
+    animation: shake 0.5s;
+  }
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+  }
